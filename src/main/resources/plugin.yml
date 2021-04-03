@@ -1,0 +1,10 @@
+name: CloudAutoSell
+version: ${project.version}
+main: net.cloud.autosell.AutoSell
+api-version: 1.16
+authors: [ Cloud, Chubbyduck1 ]
+description: A high quality Auto Sell plugin
+softdepend:
+    - Essentials
+    - ShopGUIPlus
+    - SuperBoosters

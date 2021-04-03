@@ -1,0 +1,29 @@
+Permission-Settings:
+    Member-Command: "autosell.member"
+    Admin-Command: "autosell.admin"
+
+#Essentials, ShopGUIPlus, or Custom
+Price-Provider: "ESSENTIALS"
+
+Sell-Settings:
+    Sell-Inventory: 1 #20 times a second
+    Sell-Summary: 60 #once every 60 seconds
+
+Command-Settings:
+    Name: "autosell"
+    Aliases:
+        - "as"
+        - "sellauto"
+
+Item-Settings:
+    Allow-Custom-Items: false
+    Use-Whitelisted-Only: true
+
+Booster-Settings:
+    Use-Super-Boosters: true
+
+Whitelisted-Items:
+    - "DIAMOND"
+
+Blacklisted-Items:
+    - "GRASS"

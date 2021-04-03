@@ -1,0 +1,123 @@
+ITEMS-SOLD:
+    Sound:
+        Enabled: true
+        Value: "ENTITY_PLAYER_LEVELUP"
+    Message:
+        Enabled: true
+        Value:
+            - "&2&lINVENTORY &a&lSOLD"
+            - "&7&oThis is your summary for the past 60 seconds."
+            - " "
+            - "&2&lSELL &a&lSUMMARY:"
+            - " &2» &a[Money] &f$%money%"
+            - " &2» &a[Items] &f%items%x"
+            - " "
+ADMIN-HELP-MESSAGE:
+    Sound:
+        Enabled: true
+        Value: "ENTITY_PLAYER_LEVELUP"
+    Message:
+        Enabled: true
+        Value:
+            - "&6&lCloud &e&lAuto Sell &7(&f%version%&7)"
+            - "&7&oCoded and configured by Chubbyduck1"
+            - " "
+            - "&6&lCommands:"
+            - " &6» &6/autosell &ereload"
+            - " &6» &6/autosell &estatus"
+            - " &6» &6/autosell &etoggle"
+            - " &6» &6/autosell &esummary"
+            - " "
+MEMBER-HELP-MESSAGE:
+    Sound:
+        Enabled: true
+        Value: "ENTITY_PLAYER_LEVELUP"
+    Message:
+        Enabled: true
+        Value:
+            - "&6&lCloud &e&lAuto Sell &7(&f%version%&7)"
+            - "&7&oCoded and configured by Chubbyduck1"
+            - " "
+            - "&6&lCommands:"
+            - " &6» &6/autosell &estatus"
+            - " &6» &6/autosell &etoggle"
+            - " &6» &6/autosell &esummary"
+            - " "
+NO-PERMISSION:
+    Sound:
+        Enabled: true
+        Value: "ENTITY_PLAYER_LEVELUP"
+    Message:
+        Enabled: true
+        Value:
+            - "&4&l[!] &cYou dont have permission to &nexecute&c this."
+NOT-PLAYER:
+    Sound:
+        Enabled: true
+        Value: "ENTITY_PLAYER_LEVELUP"
+    Message:
+        Enabled: true
+        Value:
+            - "&4&l[!] &cYou need to be a player to use this command."
+NOT-IN-AUTOSELL:
+    Sound:
+        Enabled: true
+        Value: "ENTITY_PLAYER_LEVELUP"
+    Message:
+        Enabled: true
+        Value:
+            - "&4&l[!] &cYou do not have &4Auto Sell &cenabled."
+COMMAND-SUMMARY:
+    Sound:
+        Enabled: true
+        Value: "ENTITY_PLAYER_LEVELUP"
+    Message:
+        Enabled: true
+        Value:
+            - "&6&l[!] &eThis is your current sell summary."
+            - " "
+            - "&6&lSELL &e&lSUMMARY:"
+            - " &6» &e[Length] &f%time%"
+            - " &6» &e[Money] &f$%money%"
+            - " &6» &e[Items] &f%items%x"
+            - " "
+ACTIVATED-AUTO-SELL:
+    Sound:
+        Enabled: true
+        Value: "ENTITY_PLAYER_LEVELUP"
+    Message:
+        Enabled: true
+        Value:
+            - "&6&l[!] &eYou have &aactivated &eyour &6Auto Sell&e."
+DEACTIVATED-AUTO-SELL:
+    Sound:
+        Enabled: true
+        Value: "ENTITY_PLAYER_LEVELUP"
+    Message:
+        Enabled: true
+        Value:
+            - "&6&l[!] &eYou have &cdeactivated &eyour &6Auto Sell&e."
+            - " "
+            - "&6&lSELL &e&lSUMMARY:"
+            - " &6» &e[Length] &f%time%"
+            - " &6» &e[Money] &f$%money%"
+            - " &6» &e[Items] &f%items%x"
+            - " "
+AUTO-SELL-STATUS:
+    Activated-Format: "&aenabled"
+    Deactivated-Format: "&cdisabled"
+    Sound:
+        Enabled: true
+        Value: "ENTITY_PLAYER_LEVELUP"
+    Message:
+        Enabled: true
+        Value:
+            - "&6&l[!] &eYour &6Auto Sell &eis currently %status%&e."
+PLUGIN-RELOADED:
+    Sound:
+        Enabled: true
+        Value: "ENTITY_PLAYER_LEVELUP"
+    Message:
+        Enabled: true
+        Value:
+            - "&6&l[!] &eYou have reloaded &6Auto Sell&e. &7(&f%ms%&7ms)"
